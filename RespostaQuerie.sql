@@ -58,3 +58,13 @@ INNER JOIN Filmes ON Filmes.Id = FilmesGenero.IdFilme
 INNER JOIN Generos ON Generos.ID = FilmesGenero.IdGenero
 WHERE 
 Generos.Genero = 'Mistério';
+
+-- 12
+SELECT
+Filmes.Nome,
+Atores.PrimeiroNome,
+Atores.UltimoNome,
+ElencoFilme.Papel
+FROM ElencoFilme
+INNER JOIN Filmes ON Filmes.Id = ElencoFilme.Id
+INNER JOIN Atores ON Atores.Id = ElencoFilme.Id;
