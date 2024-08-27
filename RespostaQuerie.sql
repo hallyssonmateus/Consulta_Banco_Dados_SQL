@@ -35,3 +35,8 @@ ORDER By Quantidade DESC
 -- 8
 SELECT * FROM Atores
 WHERE Genero = 'M'
+
+-- 9
+SELECT * FROM Atores
+WHERE Genero = 'F'
+ORDER BY PrimeiroNome
