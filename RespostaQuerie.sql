@@ -14,3 +14,7 @@ WHERE Nome = 'De Volta para o Futuro'
 -- 4
 SELECT * FROM Filmes
 WHERE Ano = '1997'
+
+-- 5
+SELECT * FROM Filmes
+WHERE Ano > '2000'
